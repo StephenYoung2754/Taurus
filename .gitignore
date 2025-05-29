@@ -1,0 +1,89 @@
+# GPLv2 LICENSE
+
+LICENSE
+
+# BUILD ARTIFACTS
+
+*.o
+*.a
+*.so
+*.bin
+*.elf
+*.out
+*.map
+*.lst
+*.mod
+*.sym
+*.d
+*.tmp
+*.core
+
+# DISK IMAGES & VIRTUAL MACHINES
+
+*.iso
+*.img
+*.qcow2
+*.vdi
+*.vmdk
+*.vhd
+*.raw
+*.nvram
+
+# DEBUG LOGS & DUMPS
+
+*.log
+*.pid
+*.dmp
+*.stackdump
+
+# BUILD DIRECTORIES
+
+build/
+out/
+dist/
+
+# RUST / CARGO
+
+/target/
+**/Cargo.lock
+**/.cargo/
+
+# CMAKE
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# KERNEL & BOOTLOADER OUTPUTS
+
+boot/*.bin
+boot/*.img
+boot/*.iso
+kernel/*.bin
+kernel/*.elf
+
+# INIT & USERLAND BINARIES
+
+init/init
+user/bin/*
+!user/bin/.gitkeep
+
+# EDITOR & IDE CONFIG
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS SPECIFIC & TEMP FILES
+
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+*.swp
+*.swo
+*.bak
+
